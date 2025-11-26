@@ -1,6 +1,6 @@
 * Half Wave Rectifier
 
-Vin IN 0 SIN(0 10 1k)
+Vin IN 0 SIN(0 100 50 0 0)
 
 D1 IN OUT Dmodel
 Rload OUT 0 1k
@@ -9,7 +9,7 @@ Rload OUT 0 1k
 
 .control
 set filetype=ascii
-tran 0.1ms 5ms
+tran 0.1ms 40ms
 write half-wave-rectifier.raw
 .endc
 

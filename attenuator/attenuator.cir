@@ -1,13 +1,13 @@
 * Simple Resistive Attenuator (Voltage Divider)
 
-Vin IN 0 SIN(0 10 1k)
+Vin IN 0 SIN(0 100 50 0 0)
 
 R1 IN OUT 10k
 R2 OUT 0 10k
 
 .control
 set filetype=ascii
-tran 0.1ms 5ms
+tran 0.1ms 40ms
 write attenuator.raw
 .endc
 
