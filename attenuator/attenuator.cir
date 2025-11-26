@@ -7,7 +7,7 @@ R2 OUT 0 10k
 
 .control
 set filetype=ascii
-tran 0.1ms 40ms
+tran 1us 40ms
 write attenuator.raw
 .endc
 
