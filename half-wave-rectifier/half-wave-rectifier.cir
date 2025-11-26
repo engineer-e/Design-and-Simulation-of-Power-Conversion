@@ -10,7 +10,7 @@ Rload OUT 0 1k
 .control
 set filetype=ascii
 tran 0.1ms 5ms
-write rectifier.raw
+write half-wave-rectifier.raw
 .endc
 
 .end
