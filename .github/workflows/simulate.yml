@@ -33,16 +33,16 @@ jobs:
           mv attenuator.png output/
 
       # --- Half Wave Rectifier ---
-      - name: Simulate Rectifier
+      - name: Simulate Half Wave Rectifier
         run: |
           cd half-wave-rectifier
-          ngspice -b rectifier.cir
+          ngspice -b half-wave-rectifier.cir
           gnuplot -e "set terminal png; \
-            set output 'rectifier.png'; \
-            plot 'rectifier.raw' using 1:2 with lines title 'IN', \
-                 'rectifier.raw' using 1:3 with lines title 'OUT';"
+            set output 'half-wave-rectifier.png'; \
+            plot 'half-wave-rectifier.raw' using 1:2 with lines title 'IN', \
+                 'half-wave-rectifier.raw' using 1:3 with lines title 'OUT';"
           mkdir -p output
-          mv rectifier.png output/
+          mv half-wave-rectifier.png output/
 
       - name: Commit Results
         run: |

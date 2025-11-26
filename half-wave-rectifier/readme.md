@@ -8,4 +8,4 @@ Basic diode rectifier with a 1k load.
 
 ## Output Waveform
 
-![Rectifier Output](output/rectifier.png)
+![Rectifier Output](output/half-wave-rectifier.png)
