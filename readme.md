@@ -7,7 +7,7 @@
 
 # Content
 
-1. [Attenuator](../Design-and-Simulation-of-Power-Conversion/attenuator/readme.md)
+1. [Attenuator](Design-and-Simulation-of-Power-Conversion/attenuator/readme.md)
 
 
 # ngspice command
