@@ -9,7 +9,7 @@
 
 1. [Attenuator](attenuator/readme.md)
 2. [Half Wave Rectifier](half_wave_rectifier/readme.md)
-
+3. [Sub Circuit Syntax](sub_circuits/readme.md)
 
 # ngspice command
 
