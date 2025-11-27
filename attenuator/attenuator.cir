@@ -1,14 +1,13 @@
-* Simple Resistive Attenuator (Voltage Divider)
+* Title : Simple attenuator circuit
 
-Vin IN 0 SIN(0 100 50 0 0)
+* Netlist
+V1 a 0 100v
+R1 a b 20
+R2 b 0 10
 
-R1 IN OUT 10k
-R2 OUT 0 10k
-
+* Control commands
 .control
-set filetype=ascii
-tran 1us 40ms
-write attenuator.raw
+op
+print v(a) v(b) v(a,b) i(v1)
 .endc
-
 .end
