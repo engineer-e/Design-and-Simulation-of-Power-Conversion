@@ -8,6 +8,7 @@
 # Content
 
 1. [Attenuator](attenuator/readme.md)
+2. [Half Wave Rectifier](half_wave_rectifier/readme.md)
 
 
 # ngspice command
