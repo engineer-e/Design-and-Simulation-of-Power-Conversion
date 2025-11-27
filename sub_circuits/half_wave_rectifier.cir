@@ -1,0 +1,14 @@
+* Title : Half wave rectifier
+
+* Transistent Analysis
+.tran 1us 40ms uic
+
+* Netlist
+.include half_wave_rectifier.net
+
+* Control
+.control 
+run
+plot v(a) v(b)
+.endc
+.end
