@@ -1,3 +1,5 @@
+[Donate 🤑](https://engineer-e.github.io/Nvidia-Learning/donate/donate.html)
+
 # Installation
 
 [ngspice](https://ngspice.sourceforge.io/index.html)
